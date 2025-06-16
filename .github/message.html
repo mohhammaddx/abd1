@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job Matcher</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    code {
+      font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    }
+
+    .main-screen {
+      background: linear-gradient(180deg, #2c3e50, #34495e);
+      color: white;
+      padding: 80px 0;
+    }
+
+    .footer {
+      background-color: #222;
+      padding: 20px 0;
+    }
+
+    .footer img {
+      width: 24px;
+    }
+
+    .mycard span {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .cta {
+      background-color: #f8f9fa;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light fixed-top shadow-sm border-bottom border-dark">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <i class="fab fa-bootstrap fa-2x me-2"></i>
+        <h1 class="h4 m-0">JOB MATCHER</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cta">Action</a></li>
+          <li class="nav-item"><a class="nav-link" href="#our-story">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faqs">FAQs</a></li>
+          <li class="nav-item"><a class="nav-link" href="#login">Sign In</a></li>
+          <li class="nav-item">
+            <a class="text-white text-decoration-none" href="#register">
+              <button class="btn btn-dark ms-lg-3 mt-2 mt-lg-0">Get Started</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="main-screen text-center">
+    <div class="container">
+      <h1 data-aos="zoom-in" class="p-5">JOB MATCHER</h1>
+      <p class="mb-5" data-aos="fade-up">
+        Your gateway to a brighter career. Find your dream job with us today!
+      </p>
+    </div>
+  </div>
+
+  <section class="py-5 bg-white" id="services">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="fw-bold">Our Services</h2>
+        <p class="text-muted">Empowering your career journey with tools and services tailored to your goals.</p>
+      </div>
+      <div class="row text-center g-4">
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="card mycard h-100 shadow border-0">
+            <div class="card-body">
+              <p class="text-center mb-3"><span>1</span></p>
+              <h5 class="card-title">CV Upload</h5>
+              <p>Easily upload your CV and build your professional profile in seconds.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card h-100 shadow border-0">
+            <div class="card-body">
+              <p class="text-center mb-3"><span>2</span></p>
+              <h5 class="card-title">Smart Matching</h5>
+              <p>Get matched with jobs based on your skills, goals, and preferences.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="card h-100 shadow border-0">
+            <div class="card-body">
+              <p class="text-center mb-3"><span>3</span></p>
+              <h5 class="card-title">Career Guidance</h5>
+              <p>Receive tips, advice, and insights to boost your job search and career growth.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 cta text-center" id="cta">
+    <div class="container" data-aos="zoom-in">
+      <h2 class="mb-3 text-dark">Ready to land your dream job?</h2>
+      <p class="mb-4">Sign up today and let our smart system match you with opportunities that suit your skills and passion.</p>
+      <a href="#register" class="btn btn-light btn-lg">Get Started Now</a>
+    </div>
+  </section>
+
+  <section class="py-5 bg-light" id="our-story">
+    <div class="container p-5">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <img src="https://as2.ftcdn.net/jpg/05/41/28/29/1000_F_541282950_dy9w27XEik2BBxbm65l96v4j9tF2GFTv.jpg" class="img-fluid rounded shadow" alt="Our Story">
+        </div>
+        <div class="col-md-6">
+          <h2 class="mb-4">About Us</h2>
+          <p>Welcome to our job matching platform, where we connect talent with opportunity.</p>
+          <p>Our mission is to simplify the job search process and help you find the perfect fit for your skills and aspirations.</p>
+          <p><b>Team developers:</b><br>1. Hamza<br>2. Mohammed<br>3. Ibrahim</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-light" id="faqs">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="fw-bold">Frequently Asked Questions</h2>
+        <p class="text-muted">Have questions? We've got answers!</p>
+      </div>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+              Is Job Matcher free to use?
+            </button>
+          </h2>
+          <div id="collapse1" class="accordion-collapse collapse show">
+            <div class="accordion-body">Yes! Job Matcher is completely free for job seekers.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+              How accurate are the job matches?
+            </button>
+          </h2>
+          <div id="collapse2" class="accordion-collapse collapse">
+            <div class="accordion-body">Our AI algorithm uses your profile data to provide highly relevant job matches.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+              Can I apply for jobs through the platform?
+            </button>
+          </h2>
+          <div id="collapse3" class="accordion-collapse collapse">
+            <div class="accordion-body">Yes, you can apply directly to jobs listed on our platform with your uploaded CV.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer text-white text-center">
+    <div class="container py-2">
+      <p class="mb-0">&copy; 2025 Job Matcher. All rights reserved.</p>
+      <div class="social-icons mt-2">
+        <a href="#"><img src="./facebook.png" alt="Facebook" class="me-3" /></a>
+        <a href="#"><img src="./linkedin (1).png" alt="LinkedIn" class="me-3" /></a>
+        <a href="#"><img src="./github.png" alt="GitHub" class="me-3" /></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+</body>
+</html>
